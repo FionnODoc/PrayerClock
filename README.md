@@ -5,4 +5,5 @@ Example use cases are at the Alchemical Hydra it's attack style changes after ev
 With this plugin for hydra on a 6 tick attack cycle that means if we set the threshold for the infobox to flash to 18 ticks having to count just incase we miss the animation is no longer necessary.
 
 
-![DFOcGeq](https://github.com/FionnODoc/PrayerClock/assets/147807710/16ed06e1-2645-4ce4-abd9-3ded07eec11c)
+
+![pkwN6d5](https://github.com/FionnODoc/PrayerClock/assets/147807710/7aef419a-e5e2-40e8-a7d4-df6c8797bc42)
