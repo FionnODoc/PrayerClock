@@ -1,6 +1,6 @@
 package com.PrayerClockTest;
 
-import com.PrayerClock.PrayerClockPlugin;
+import com.prayerclock.PrayerClockPlugin;
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 

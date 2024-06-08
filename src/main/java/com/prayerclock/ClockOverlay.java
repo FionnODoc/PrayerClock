@@ -1,4 +1,4 @@
-package com.PrayerClock;
+package com.prayerclock;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -9,7 +9,6 @@ import net.runelite.client.ui.overlay.Overlay;
 import net.runelite.client.ui.overlay.OverlayPosition;
 import net.runelite.client.ui.overlay.components.PanelComponent;
 import net.runelite.client.ui.overlay.components.TitleComponent;
-import net.runelite.client.ui.overlay.components.LineComponent;
 
 class ClockOverlay extends Overlay {
     private final Client client;
@@ -42,7 +41,7 @@ class ClockOverlay extends Overlay {
     @Override
     public Dimension render(Graphics2D graphics2D) {
         panelComponent.getChildren().clear();
-        String overlayTitle = "Ticks: ";
+        String overlayTitle = "";
 
         panelComponent.getChildren().add(TitleComponent.builder()
                 .text(overlayTitle + ticks)
@@ -50,7 +49,7 @@ class ClockOverlay extends Overlay {
                 .build());
 
         panelComponent.setPreferredSize(new Dimension(
-                graphics2D.getFontMetrics().stringWidth(overlayTitle) + 30,
+                graphics2D.getFontMetrics().stringWidth(overlayTitle) + 80,
                 0
         ));
 

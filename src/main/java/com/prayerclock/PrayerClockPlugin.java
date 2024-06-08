@@ -1,4 +1,4 @@
-package com.PrayerClock;
+package com.prayerclock;
 
 import com.google.inject.Inject;
 import com.google.inject.Provides;

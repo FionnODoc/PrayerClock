@@ -1,10 +1,8 @@
-package com.PrayerClock;
+package com.prayerclock;
 
-import com.google.inject.Provides;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
-import net.runelite.client.config.ConfigManager;
 
 @ConfigGroup("PrayerClock")
 public interface PrayerClockConfig extends Config {
